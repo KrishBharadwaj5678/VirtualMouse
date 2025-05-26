@@ -50,7 +50,7 @@ Welcome to the **Virtual Mouse** project! This tool lets you control your comput
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/virtual-mouse.git
+   git clone https://github.com/KrishBharadwaj5678/VirtualMouse.git
    ```
 
 2. **Navigate into the project directory**
@@ -84,8 +84,8 @@ Contributions are welcome! 🙌
 2. **Clone Your Fork** 📥
 
    ```bash
-   git clone https://github.com/your-username/virtual-mouse.git
-   cd virtual-mouse
+   git clone https://github.com/KrishBharadwaj5678/VirtualMouse.git
+   cd VirtualMouse
    ```
 
 3. **Create a New Branch** 🌿
