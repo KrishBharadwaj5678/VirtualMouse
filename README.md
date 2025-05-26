@@ -1,23 +1,36 @@
 # 🖱️ Virtual Mouse
 
-Welcome to the **Virtual Mouse** project! This tool lets you control your computer's mouse using **hand gestures**.
+Welcome to the **Virtual Mouse** project! This tool lets you control your computer's mouse using **hand gestures**  captured via your **webcam**. 🖐️
 
 ---
 
 ## 🚀 Features
 
-* 🖐️ Control mouse with hand gestures
-* 🖱️ Left-click, right-click and double-click with specific finger patterns
-* 🎯 Move cursor based on hand movement
-* 🔄 Smooth real-time tracking with OpenCV
-* ⚙️ Easy to run and customize
+| Feature 🧩                    | Description 📋                                                                       |
+| ----------------------------- | ------------------------------------------------------------------------------------ |
+| 🖐️ Hand Gesture Control      | Use your hand to move the mouse pointer in real time.                                 |
+| 🖱️ Click Actions             | **Left**, **right**, and **double** click with fingers gestures.                      |
+| 🧭 Scroll Up / Down           | Scroll through pages using finger movements.                                         |
+| 🎯 Cursor Movement            | Smoothly move the mouse cursor based on hand position.                               |
+| 🔄 Real time Tracking         | Fast and responsive tracking using **OpenCV** and **MediaPipe**.                     |
+| 🔍 Gesture Recognition        | Detect specific finger configurations for different commands.                        |
+| 🧰 Easy Setup & Customization | Simple to install, run, and tweak gesture mappings.                                  |
+| 🧑‍💻 Python Powered             | Entirely built using Python and open source libraries.                               |
+| 📷 Webcam Integration         | Uses your computer's webcam.                                                          |
+
+---
 
 ## 🛠️ Tech Stack
 
-* Python 3 🐍
-* OpenCV 🎥
-* MediaPipe ✋
-* Mouse 🖱️
+| Technology ⚙️ | Purpose 📋                          |
+| ------------- | ----------------------------------- |
+| 🐍 Python 3   | Core programming language           |
+| 🎥 OpenCV     | Video capture and image processing  |
+| ✋ MediaPipe   | Hand tracking and gesture detection |
+| 🖱️ PyAutoGUI | Simulate mouse actions              |
+| 📦 NumPy      | Efficient numerical operations      |
+
+---
 
 ## 📸 How It Works
 
@@ -39,7 +52,7 @@ pip install -r requirements.txt
 ## ▶️ Run the Project
 
 ```bash
-python virtual_mouse.py
+python app.py
 ```
 
 ## 🤝 Contributing
