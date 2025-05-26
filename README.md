@@ -77,4 +77,37 @@ Welcome to the **Virtual Mouse** project! This tool lets you control your comput
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
+Contributions are welcome! 🙌 
+
+1. **Fork the Repository** 🍴
+
+2. **Clone Your Fork** 📥
+
+   ```bash
+   git clone https://github.com/your-username/virtual-mouse.git
+   cd virtual-mouse
+   ```
+
+3. **Create a New Branch** 🌿
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+4. **Make Your Changes** 🧠
+
+5. **Commit Your Changes** 💾
+
+   ```bash
+   git add .
+   git commit -m "Add: Short description of your change"
+   ```
+
+6. **Push to Your Fork** 🚀
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+7. **Open a Pull Request** 📬
+     - Go to the original repo and open a **Pull Request** from your branch.
