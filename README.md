@@ -34,7 +34,7 @@ Welcome to the **Virtual Mouse**! This tool lets you control your computer's mou
 
 ---
 
-## 📸 How It Works
+## 💻 How It Works
 
 1. 🎥 **Capture video** from the webcam in real time.
 2. ✋ **Detect hand landmarks** using **MediaPipe**.
