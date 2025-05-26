@@ -36,12 +36,23 @@ Welcome to the **Virtual Mouse** project! This tool lets you control your comput
 
 ## 📸 How It Works
 
-1. Capture video from webcam
-2. Detect hand landmarks using **MediaPipe**
-3. Track finger positions to:
+1. 🎥 **Capture video** from the webcam in real time.
+2. ✋ **Detect hand landmarks** using **MediaPipe**.
+3. 🖱️ **Index finger tip** controls the cursor position on the screen.
 
-   * Move the cursor
-   * Perform left and right clicks
+### ✋ Gesture Based Mouse Actions
+
+| Gesture 👋              | Fingers State 🖐️                   | Distance Condition 📏  | 
+| ----------------------- | ----------------------------------- | ---------------------- |
+| **Left Click**          | Index ✅, Middle ✅, Pinky ❌          | Index ↔️ Middle < 25px |
+| **Right Click**         | Index ✅, Middle ✅, Pinky ✅          | Index ↔️ Middle < 25px |
+| **Scroll Down**         | Index ✅, Middle ✅, Pinky ❌, Thumb ✅ | Index ↔️ Middle < 25px |
+| **Scroll Up**           | Index ✅, Middle ✅, Pinky ✅, Thumb ✅ | Index ↔️ Middle < 25px |
+| **Double Click**        | Index ✅, Middle ❌, Pinky ❌, Thumb ✅ | _Not Required_ |
+
+* ✅ = **Finger Up**
+* ❌ = **Finger Down**
+* ↔️ = **Distance between fingertips**
 
 ---
 
