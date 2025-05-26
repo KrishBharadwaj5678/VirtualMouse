@@ -1,6 +1,6 @@
 # 🖱️ Virtual Mouse
 
-Welcome to the **Virtual Mouse** project! This tool lets you control your computer's mouse using **hand gestures**  captured via your **webcam**. 🎥
+Welcome to the **Virtual Mouse**! This tool lets you control your computer's mouse using **hand gestures**  captured via your **webcam**. 🎥
 
 ![Virtual Mouse](https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/VirtualMouseDemo.gif)
 
