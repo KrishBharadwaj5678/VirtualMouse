@@ -1,6 +1,8 @@
 # 🖱️ Virtual Mouse
 
-Welcome to the **Virtual Mouse** project! This tool lets you control your computer's mouse using **hand gestures**  captured via your **webcam**. 🖐️
+Welcome to the **Virtual Mouse** project! This tool lets you control your computer's mouse using **hand gestures**  captured via your **webcam**. 🎥
+
+![Virtual Mouse]()
 
 ---
 
@@ -41,19 +43,37 @@ Welcome to the **Virtual Mouse** project! This tool lets you control your comput
    * Move the cursor
    * Perform left and right clicks
 
+---
+
 ## 📦 Installation
 
-```bash
-git clone https://github.com/your-username/virtual-mouse.git
-cd VirtualMouse
-pip install -r requirements.txt
-```
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-username/virtual-mouse.git
+   ```
+
+2. **Navigate into the project directory**
+
+   ```bash
+   cd VirtualMouse
+   ```
+
+3. **Install the required dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+---
 
 ## ▶️ Run the Project
 
-```bash
-python app.py
-```
+1. **Start the application**
+
+   ```bash
+   python app.py
+   ```
+---
 
 ## 🤝 Contributing
 
