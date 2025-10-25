@@ -121,4 +121,4 @@ Contributions are welcome! 🙌
    ```
 
 7. **Open a Pull Request** 📬
-     - Go to the original repo and open a **Pull Request** from your branch.
+     - Go to the repo and open a **Pull Request** from your branch.
