@@ -4,8 +4,6 @@ Welcome to the **Virtual Mouse**! This tool lets you control your computer's mou
 
 ![Virtual Mouse](https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/VirtualMouseDemo.gif)
 
----
-
 ## 🚀 Features
 
 | Feature 🧩                    | Description 📋                                                                       |
@@ -75,50 +73,21 @@ Welcome to the **Virtual Mouse**! This tool lets you control your computer's mou
    ```bash
    pip install -r requirements.txt
    ```
----
 
-## ▶️ Run the Project
-
-1. **Start the application**
+4. **Start the application**
 
    ```bash
    python app.py
    ```
 ---
 
-## 🤝 Contributing
+## Contributing 🤝
 
-Contributions are welcome! 🙌 
+Want to contribute? Here's how:
 
-1. **Fork the Repository** 🍴
+1. 🍴 Fork the repository.
+2. 🌿 Create a new branch (`git checkout -b feature-name`).
+3. ✍️ Make your changes and commit them (`git commit -am 'Add feature-name'`).
+4. 🚀 Push to your branch (`git push origin feature-name`).
+5. 🔄 Submit a pull request to merge into the main branch.
 
-2. **Clone Your Fork** 📥
-
-   ```bash
-   git clone https://github.com/KrishBharadwaj5678/VirtualMouse.git
-   cd VirtualMouse
-   ```
-
-3. **Create a New Branch** 🌿
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-4. **Make Your Changes** 🧠
-
-5. **Commit Your Changes** 💾
-
-   ```bash
-   git add .
-   git commit -m "Add: Short description of your change"
-   ```
-
-6. **Push to Your Fork** 🚀
-
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-7. **Open a Pull Request** 📬
-     - Go to the repo and open a **Pull Request** from your branch.
