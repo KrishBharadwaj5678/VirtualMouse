@@ -1,93 +1,110 @@
-# 🖱️ Virtual Mouse
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=KrishBharadwaj5678&label=Profile%20Views&color=brightgreen&style=for-the-badge" />
+  <img src="https://hits.sh/github.com/KrishBharadwaj5678/VirtualMouse.svg?style=for-the-badge&label=Repo%20Views&color=blue" />
+  <img src="https://img.shields.io/github/stars/KrishBharadwaj5678/VirtualMouse?style=for-the-badge&color=yellow" />
+  <img src="https://img.shields.io/github/last-commit/KrishBharadwaj5678/VirtualMouse?style=for-the-badge&color=orange" />
+  <img src="https://img.shields.io/github/repo-size/KrishBharadwaj5678/VirtualMouse?style=for-the-badge&color=blue" />
+</p>
 
-Welcome to the **Virtual Mouse**! This tool lets you control your computer's mouse using **hand gestures**  captured via your **webcam**. 🎥
+<p align="center">
+  <a href="README.md">English</a> | 
+  <a href="README.pt.md">Português</a> | 
+  <a href="README.ja.md">日本語</a> | 
+  <a href="README.ru.md">Русский</a>
+</p>
 
-![Virtual Mouse](https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/VirtualMouseDemo.gif)
+<h1 align="center"><img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/icons/virtualMouse.png" width="35"/> Virtual Mouse</h1>
 
-## 🚀 Features
+<p align="center">
+   Virtual Mouse lets you control your computer using hand gestures detected through your webcam, providing a touch-free way to interact with your screen.
+</p>
 
-| Feature 🧩                    | Description 📋                                                                       |
+<p align="center">
+  <img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/demos/virtualMouse.gif" width="100%" />
+</p>
+
+<img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/readme/divider.gif" width="100%"/>
+
+## <img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/readme/features.gif" width="35"/> Features
+
+| Feature                       | Description                                                                          |
 | ----------------------------- | ------------------------------------------------------------------------------------ |
 | 🖐️ Hand Gesture Control      | Use your hand to move the mouse pointer in real time.                                 |
-| 🖱️ Click Actions             | **Left**, **right**, and **double** click with fingers gestures.                      |
-| 🧭 Scroll Up / Down           | Scroll through pages using finger movements.                                         |
-| 🎯 Cursor Movement            | Smoothly move the mouse cursor based on hand position.                               |
-| 🔄 Real time Tracking         | Fast and responsive tracking using **OpenCV** and **MediaPipe**.                     |
-| 🔍 Gesture Recognition        | Detect specific finger configurations for different commands.                        |
-| 🧰 Easy Setup & Customization | Simple to install, run, and tweak gesture mappings.                                  |
-| 🧑‍💻 Python Powered             | Entirely built using Python and open source libraries.                               |
-| 📷 Webcam Integration         | Uses your computer's webcam.                                                          |
+| 👆 Click Actions             | **Left**, **right**, and **double** click with fingers gestures.                      |
+| ↕️ Scroll Up / Down           | Scroll through pages using finger movements.                                         |
+| 🖱️ Cursor Movement            | Smoothly move the mouse cursor based on hand position.                               |
+| ⚡ Real time Tracking         | Fast and responsive tracking using **OpenCV** and **MediaPipe**.                     |
+| 🤟 Gesture Recognition        | Detect specific finger configurations for different commands.                        |
 
----
+<img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/readme/divider.gif" width="100%"/>
 
-## 🛠️ Tech Stack
+## <img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/readme/techStack.gif" width="35"/> Tech Stack
 
-| Technology ⚙️ | Purpose 📋                          |
-| ------------- | ----------------------------------- |
-| 🐍 Python 3   | Core programming language           |
-| 🎥 OpenCV     | Video capture and image processing  |
-| ✋ MediaPipe   | Hand tracking and gesture detection |
-| 🖱️ PyAutoGUI | Simulate mouse actions              |
-| 📦 NumPy      | Efficient numerical operations      |
+| Technology | Purpose |
+| ---------- | ------- |
+| <img src="https://skillicons.dev/icons?i=python" width="25"/> **Python3** | Core programming language |
+| <img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/icons/opencv.png" width="25"/> **OpenCV** | Video capture and image processing |
+| <img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/icons/mediapipe.png" width="25"/> **MediaPipe** | Hand tracking and gesture detection |
+| <img src="https://skillicons.dev/icons?i=python" width="25"/> **PyAutoGUI** | Simulate mouse actions |
+| <img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/icons/numpy.png" width="25"/> **NumPy** | Efficient numerical operations |
 
----
+<img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/readme/divider.gif" width="100%"/>
 
-## 💻 How It Works
+## <img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/readme/gettingStarted.gif" width="35"/> Getting Started
 
-1. 🎥 **Capture video** from the webcam in real time.
-2. ✋ **Detect hand landmarks** using **MediaPipe**.
-3. 🖱️ **Index finger tip** controls the cursor position on the screen.
+### 1️⃣ Clone the Repository
 
-### ✋ Gesture Based Mouse Actions
+```bash
+ git clone https://github.com/KrishBharadwaj5678/VirtualMouse.git
+```
 
-| Gesture 👋              | Fingers State 🖐️                   | Distance Condition 📏  | 
-| ----------------------- | ----------------------------------- | ---------------------- |
-| **Left Click**          | Index ✅, Middle ✅, Pinky ❌          | Index ↔️ Middle < 25px |
-| **Right Click**         | Index ✅, Middle ✅, Pinky ✅          | Index ↔️ Middle < 25px |
-| **Scroll Down**         | Index ✅, Middle ✅, Pinky ❌, Thumb ✅ | Index ↔️ Middle < 25px |
-| **Scroll Up**           | Index ✅, Middle ✅, Pinky ✅, Thumb ✅ | Index ↔️ Middle < 25px |
-| **Double Click**        | Index ✅, Middle ❌, Pinky ❌, Thumb ✅ | _Not Required_ |
+### 2️⃣ Navigate to the Project
 
-* ✅ = **Finger Up**
-* ❌ = **Finger Down**
-* ↔️ = **Distance between fingertips**
+```bash
+ cd VirtualMouse
+```
 
----
+### 3️⃣ Install the Dependencies
 
-## 📦 Installation
+```bash
+ pip install -r requirements.txt
+```
 
-1. **Clone the repository**
+### 4️⃣ Run the app
 
-   ```bash
-   git clone https://github.com/KrishBharadwaj5678/VirtualMouse.git
-   ```
+```bash
+ python app.py
+```
 
-2. **Navigate into the project directory**
+<img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/readme/divider.gif" width="100%"/>
 
-   ```bash
-   cd VirtualMouse
-   ```
+## <img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/readme/howItWorks.gif" width="35"/> Gesture Instructions
 
-3. **Install the required dependencies**
+<p align="center">
+  <img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/demos/fingerNames.png"/>
+</p>
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+| Action | Finger Position | Distance Threshold |
+| ------- | ------------- | ------------------- |
+| **Left Click** | Index 🔼, Middle 🔼 | Index ↔️ Middle < 25px |
+| **Right Click** | Index 🔼, Middle 🔼, Pinky 🔼 | Index ↔️ Middle < 25px |
+| **Scroll Down** | Index 🔼, Middle 🔼, Thumb 🔼 | Index ↔️ Middle < 25px |
+| **Scroll Up** | Index 🔼, Middle 🔼, Pinky 🔼, Thumb 🔼 | Index ↔️ Middle < 25px |
+| **Double Click** | Index 🔼, Thumb 🔼 | Not Required |
 
-4. **Start the application**
+- 🔼 = Finger Up
+- ↔️ = Distance between fingertips
 
-   ```bash
-   python app.py
-   ```
----
+<img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/readme/divider.gif" width="100%"/>
 
-## Contributing 🤝
+## <img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/readme/license.gif" width="35"/> License
 
-Want to contribute? Here's how:
+This project is licensed under the **MIT License**.
 
-1. 🍴 Fork the repository.
-2. 🌿 Create a new branch (`git checkout -b feature-name`).
-3. ✍️ Make your changes and commit them (`git commit -am 'Add feature-name'`).
-4. 🚀 Push to your branch (`git push origin feature-name`).
-5. 🔄 Submit a pull request to merge into the main branch.
+See the [LICENSE](LICENSE) file for more details.
+
+<p align="center">
+  <img src="https://github.com/KrishBharadwaj5678/VirtualMouse/raw/main/assets/readme/footer.gif" width="320px"/>
+</p>
+
 
